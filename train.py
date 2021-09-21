@@ -19,7 +19,7 @@ from data import PaddedTensorDataset
 from data import TextLoader
 from model import LSTMClassifier
 
-
+#comment
 def main():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--data_dir', type=str, default='toy_data/names',
